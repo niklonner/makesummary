@@ -5,12 +5,12 @@ A script I use to handle the finances of our team. Really not reusable for anyon
 
 Traverses a directory of team member files and produces an Excel XML-document.
 
-Team member files have the following format:
-Member name
-Payment plan
-starting sum
-date;label;sum         # transaction, zero or more
-2012-06-11;Payment;500 # example transaction
+Team member files have the following format:  
+Member name  
+Payment plan  
+starting sum  
+date;label;sum         # transaction, zero or more  
+2012-06-11;Payment;500 # example transaction  
 
 Usage:
 
