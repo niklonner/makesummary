@@ -6,19 +6,18 @@ A script I use to handle the finances of our team. Really not reusable for anyon
 Traverses a directory of team member files and produces an Excel XML-document.
 
 Team member files have the following format:  
-Member name  
-Payment plan  
-Starting sum  
-date;label;sum         # transaction, zero or more  
+    Member name  
+    Payment plan  
+    Starting sum  
+    date;label;sum         # transaction, zero or more  
 
 Example:  
-John Tester  
-Junior player  
-1200  
-2012-06-11;Payment;600  
-2012-06-15;Prize money;1695  
-2012-06-28;Payment;1500  
-
+    John Tester  
+    Junior player  
+    1200  
+    2012-06-11;Payment;600  
+    2012-06-15;Prize money;1695  
+    2012-06-28;Payment;1500  
 
 Usage:
 
